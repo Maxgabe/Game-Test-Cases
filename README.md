@@ -13,7 +13,9 @@ Title: Test login with correct credentials
 1. Go to www.Questmaster.com/login
 2. Add a correct user/pass
 3. Press Login button
+
  Expected result : User will be able to login
+ 
  Test data: User: Max & Pass:123456
 
 -----------------
