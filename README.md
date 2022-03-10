@@ -1,6 +1,6 @@
 # Test-Cases
 
-Below are some Test-Cases that I made
+# Below are some Test-Cases that I made
 
 -----------------
 
@@ -20,11 +20,12 @@ Below are some Test-Cases that I made
 
 -----------------
 
-Title: Search for an item in the inventory
-NEW
-Description: Search for an item and after that use the delete function in the search bar to delete the item from
-the inventory.
-Steps to reproduce:
+#### Title: Search inventory  functionality
+
+#### Description: Search for an item and after that use the delete function in the search bar to delete the item from the inventory.
+
+#### Steps to reproduce:
+
 1. Go to http://www.Questmaster.com/login
 2. Use credentials to login
 3. Press “I” button to open inventory menu
@@ -33,27 +34,31 @@ Steps to reproduce:
 6. Click on item
 7. Click on “Delete”
 8. Click on “Yes” when the delete interrogation appears
-Expected result: User will be able to find the searched item in the game and delete the item from the inventory
-for him.
-Test data: For search: Goat Cheese
-User: Max & Pass:56789
+
+#### Expected result : User will be able to find the searched item in the game and delete the item from the inventory for him.
+
+#### Test data: User: Max & Pass:56789
 
 -----------------
 
-Title : As a user I want to craft a potion that increases my stamina permanently
-Preconditions :
+#### Title : As a user I want to craft a potion that increases my stamina permanently
+
+#### Preconditions :
+
 User has to be logged in
 The user has to have the next potion requirements : 2 x Grumpy Beets , 1 x Glass Bottle and 3 x Enchanted
 Blue Leaves
 The user has to be near a cauldron
-Given the user already possesses the necessary ingredients
-When the user uses the cauldron and adds the ingredients to their specific socket
-Then the potion will be created and automatically added to the user’s inventory
-Expected results :
-G : the user succesfully grabs the necessary ingredients
-W: The user succesfully opens the brewing menu of the cauldron and selects each ingredient to their respective
+
+*Given*  the user already possesses the necessary ingredients
+*When* the user uses the cauldron and adds the ingredients to their specific socket
+*Then*  the potion will be created and automatically added to the user’s inventory
+
+#### Expected results :
+#### G : the user succesfully grabs the necessary ingredients
+#### W: The user succesfully opens the brewing menu of the cauldron and selects each ingredient to their respective
 socket
-T: The potion will be succesfully created and automatically added to the user’s inventory for later consumption
+#### T: The potion will be succesfully created and automatically added to the user’s inventory for later consumption
 The potion does not fail in the brewing process
 
 -----------------
