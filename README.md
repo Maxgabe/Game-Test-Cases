@@ -1,7 +1,6 @@
 # Test-Cases
 
-# Below are some Test-Cases that I wrote
-
+# Below are some Test-Cases that I wrote from my experience
 -----------------
 **ID** : MX01
 
