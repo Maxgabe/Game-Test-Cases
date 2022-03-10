@@ -56,6 +56,7 @@ The user has to be near a cauldron
 **Then** the potion will be created and automatically added to the user’s inventory
 
  Expected results :
+ 
 **G** : the user succesfully grabs the necessary ingredients
 
 **W** : The user succesfully opens the brewing menu of the cauldron and selects each ingredient to their respective socket
