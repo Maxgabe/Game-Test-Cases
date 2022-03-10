@@ -3,6 +3,7 @@
 # Below are some Test-Cases that I made
 
 -----------------
+**ID** : MX01
 
  **Title**  : Test login with correct credentials
 
@@ -19,6 +20,8 @@
  **Test data** : User: Max & Pass:123456
 
 -----------------
+
+**ID** : MX02
 
 **Title** : Search inventory  functionality
 
@@ -40,6 +43,8 @@
 **Test data** : User: Max & Pass:56789
 
 -----------------
+
+**ID** : MX03
 
 **Title** : As a user I want to craft a potion that increases my stamina permanently
 
@@ -65,6 +70,8 @@ The user has to be near a cauldron
 The potion does not fail in the brewing process
 
 -----------------
+
+**ID** : MX04
 
 **Title** : As a user I want to change my password because I forgot it 
 
@@ -92,6 +99,7 @@ The user has a desired password nearby  to replace the one that he forgot
 The “Save Password”  does not remain static after being clicked 
 
 -----------------
+**ID** : MX05
 
 **Title**: Test “Save Password” button after entering the credentials 
 
@@ -116,6 +124,8 @@ The “Save Password”  does not remain static after being clicked
 
 -----------------
 
+**ID** : MX06
+
 **Title**: Body functionality for a NPC
 
 **Description**: Checking if a random NPC has his/her’s whole body visible 
@@ -136,6 +146,8 @@ The “Save Password”  does not remain static after being clicked
 **Test data**: To test the body functionality of a random NPC **User**: Moxxy & Pass: 9221233
 
 -----------------
+
+**ID** : MX07
 
 **Title** : As a user I want to craft a potion that increases my stamina permanently
 
@@ -163,6 +175,7 @@ socket
 The potion does not fail in the brewing process
 
 -----------------
+**ID** : MX08
 
 **Title** : Bed functionality
 
@@ -193,6 +206,8 @@ The potion does not fail in the brewing process
 
 -----------------
 
+**ID** : MX09
+
 **Title** : Gas canister resistance functionality
 
 **Description** : Check if  a gas canister can resist by being penetrated by a bullet
@@ -222,6 +237,7 @@ The potion does not fail in the brewing process
 **Test data**: To test the gas canister resistance functionality **User**: Quack_Prince & Pass:9231722
 
 -----------------
+**ID**: MX10
 
 **Title** : In-game mailbox functionality
 
@@ -249,6 +265,8 @@ The “Save Password”  does not remain static after being clicked
 
 -----------------
 
+**ID** : MX11
+
 **Title** : “Save Password” Functionality
 
 **Description** : Check if the “Save Password” button works when a person uses a correct email address and a new password to enter his/hers account after forgetting their initial password
@@ -271,6 +289,8 @@ The “Save Password”  does not remain static after being clicked
 **Test data**: To test the functionality of the “Save Password” button **User**: Max & Pass:56789
 
 -----------------
+
+**ID** : MX12
 
 **Title**: In-game river functionality
 
@@ -295,6 +315,8 @@ The “Save Password”  does not remain static after being clicked
 
 -----------------
 
+**ID** : MX12
+
 **Title** :  Search inventory  functionality
 
 **Description** : Search for an item and after that use the delete function in the search bar to delete the item from
@@ -317,6 +339,8 @@ for him.
 
 -----------------
 
+**ID** : MX13
+
 **Title**: Test login with correct credentials
 
 **Description**: Check if the login works when a person uses a correct user/pass to enter the game
@@ -332,6 +356,7 @@ for him.
 **Test data**: User: Max & Pass:123456
 
 -----------------
+**ID** : MX14
 
 **Title** : Testing the functionality of a door to trap a hostile NPC
 
@@ -339,7 +364,7 @@ for him.
 
 **Steps to reproduce** :
 
-1. run the game
+1. Run the game
 2. Press “Play”
 3. Wait for the generic load screen to load
 4. Select “Load Game”
