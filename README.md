@@ -4,27 +4,27 @@
 
 -----------------
 
-#### Title: Test login with correct credentials
+ **Title**  : Test login with correct credentials
 
-  #### Description: Check if the login works when a person uses a correct user/pass to enter the game
+  **Description** : Check if the login works when a person uses a correct user/pass to enter the game
 
- ####  Steps to reproduce:
+ **Steps to reproduce** :
 
 1. Go to www.Questmaster.com/login
 2. Add a correct user/pass
 3. Press Login button
 
- #### Expected result : User will be able to login
+ **Expected result** : User will be able to login
  
- #### Test data: User: Max & Pass:123456
+ **Test data** : User: Max & Pass:123456
 
 -----------------
 
-#### Title: Search inventory  functionality
+**Title** : Search inventory  functionality
 
-#### Description: Search for an item and after that use the delete function in the search bar to delete the item from the inventory.
+**Description** : Search for an item and after that use the delete function in the search bar to delete the item from the inventory.
 
-#### Steps to reproduce:
+**Steps to reproduce** :
 
 1. Go to http://www.Questmaster.com/login
 2. Use credentials to login
@@ -35,47 +35,56 @@
 7. Click on “Delete”
 8. Click on “Yes” when the delete interrogation appears
 
-#### Expected result : User will be able to find the searched item in the game and delete the item from the inventory for him.
+**Expected result** : User will be able to find the searched item in the game and delete the item from the inventory for him.
 
-#### Test data: User: Max & Pass:56789
+**Test data** : User: Max & Pass:56789
 
 -----------------
 
-#### Title : As a user I want to craft a potion that increases my stamina permanently
+**Title** : As a user I want to craft a potion that increases my stamina permanently
 
-#### Preconditions :
+**Preconditions** :
 
 User has to be logged in
-The user has to have the next potion requirements : 2 x Grumpy Beets , 1 x Glass Bottle and 3 x Enchanted
-Blue Leaves
+The user has to have the next potion requirements : 2 x Grumpy Beets , 1 x Glass Bottle and 3 x Enchanted Blue Leaves
 The user has to be near a cauldron
 
-*Given*  the user already possesses the necessary ingredients
-*When* the user uses the cauldron and adds the ingredients to their specific socket
-*Then*  the potion will be created and automatically added to the user’s inventory
+**Given**  the user already possesses the necessary ingredients
 
-#### Expected results :
-#### G : the user succesfully grabs the necessary ingredients
-#### W: The user succesfully opens the brewing menu of the cauldron and selects each ingredient to their respective
-socket
-#### T: The potion will be succesfully created and automatically added to the user’s inventory for later consumption
+**When** the user uses the cauldron and adds the ingredients to their specific socket
+
+**Then** the potion will be created and automatically added to the user’s inventory
+
+ Expected results :
+**G** : the user succesfully grabs the necessary ingredients
+
+**W** : The user succesfully opens the brewing menu of the cauldron and selects each ingredient to their respective socket
+
+**T** : The potion will be succesfully created and automatically added to the user’s inventory for later consumption
 The potion does not fail in the brewing process
 
 -----------------
 
-Title : As a user I want to change my password because I forgot it 
-Preconditions :
+**Title** : As a user I want to change my password because I forgot it 
+
+**Preconditions** :
+
 User has to have access to the website 
 User has to have the website opened in the browser
 The user has the email address to fill the required empty bracket
 The user has a desired password nearby  to replace the one that he forgot 
-Given the user already possesses the email address and a new suitable password
-When the user enters the email address and the new password in their respective brackets
-Then the “Save Password” button will redirect the user to the main platform and an automatic email will be sent to the user’s email to confirm the occured changes.
-Expected results :
-G : the user successfully select the email address and the new password 
-W: The user successfully enters the email address and the new password in their respective brackets
-T: The “Save Password” button will successfully redirect the user to the main platform and an automatic email will be sent to the user’s email to confirm the occured changes
+
+**Given** the user already possesses the email address and a new suitable password
+
+**When** the user enters the email address and the new password in their respective brackets
+
+**Then** the “Save Password” button will redirect the user to the main platform and an automatic email will be sent to the user’s email to confirm the occured changes.
+
+**Expected results** :
+
+**G** : the user successfully select the email address and the new password 
+**W** : The user successfully enters the email address and the new password in their respective brackets
+**T** : The “Save Password” button will successfully redirect the user to the main platform and an automatic email will be sent to the user’s email to confirm the occured changes
 The “Save Password”  does not remain static after being clicked 
 
 -----------------
