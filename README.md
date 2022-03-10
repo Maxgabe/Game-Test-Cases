@@ -4,17 +4,17 @@ Below are some Test-Cases that I made
 
 -----------------
 
-## Title: Test login with correct credentials
+### Title: Test login with correct credentials
 
-##  Description: Check if the login works when a person uses a correct user/pass to enter the game
+###   Description: Check if the login works when a person uses a correct user/pass to enter the game
 
-##  Steps to reproduce:
+###   Steps to reproduce:
 
 1. Go to www.Questmaster.com/login
 2. Add a correct user/pass
 3. Press Login button
-## Expected result : User will be able to login
-## Test data: User: Max & Pass:123456
+###  Expected result : User will be able to login
+###  Test data: User: Max & Pass:123456
 
 -----------------
 
