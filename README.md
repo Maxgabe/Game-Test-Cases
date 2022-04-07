@@ -50,7 +50,9 @@
 **Preconditions** :
 
 User has to be logged in
+
 The user has to have the next potion requirements : 2 x Grumpy Beets , 1 x Glass Bottle and 3 x Enchanted Blue Leaves
+
 The user has to be near a cauldron
 
 **Given**  the user already possesses the necessary ingredients
@@ -77,8 +79,11 @@ The potion does not fail in the brewing process
 **Preconditions** :
 
 User has to have access to the website 
+
 User has to have the website opened in the browser
+
 The user has the email address to fill the required empty bracket
+
 The user has a desired password nearby  to replace the one that he forgot 
 
 **Given** the user already possesses the email address and a new suitable password
